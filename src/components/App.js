@@ -1,5 +1,5 @@
 import React from 'react';
-import Navigation from './navigation';
+import Navigation from './common/navigation';
 import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
 import PageRenderer from './page-renderer'
 
