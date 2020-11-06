@@ -1,26 +1,34 @@
-import moment from 'moment';
+
+import moment from 'moment'
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default [
   {
-    title: 'Does the Perfect Sandwich exist',
+    title: 'Can anyone code?',
     date: moment().format('MMMM DD, YYYY'),
-    categories: ['Food', 'Sandwich'],
+    categories: ['Tech Culture', 'Tech News'],
     link: '#',
-    image: 'sandwich.jpg'
+    image: 'anyone_can_code.jpg',
   },
   {
-    title: 'Moving out of Austin',
+    title: 'Using AWS S3 for Storing Blog Images',
     date: moment().format('MMMM DD, YYYY'),
-    categories: ['Austin', 'Texas'],
+    categories: ['Cloud'],
     link: '#',
-    image: 'austin.jpg'
+    image: 'anyone_can_code.jpg',
   },
   {
-    title: 'Basketball is the best sport: Change my mind',
+    title: 'Popular Programming Languages in 2020',
     date: moment().format('MMMM DD, YYYY'),
-    categories: ['Basketball', 'Sports'],
+    categories: ['Tech News', 'Tech Culture'],
     link: '#',
-    image: 'basketball.jpg'
-  }
+    image: 'anyone_can_code.jpg'
+  },
+  {
+    title: 'Brain Hacks for Learning to Program',
+    date: moment().format('MMMM DD, YYYY'),
+    categories: ['Brain Health'],
+    link: '#',
+    image: 'anyone_can_code.jpg'
+  },
 ]
