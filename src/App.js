@@ -1,7 +1,7 @@
 import React from 'react';
-import Navigation from './common/navigation';
+import Navigation from './components/navigation';
 import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
-import PageRenderer from './page-renderer'
+import PageRenderer from './components/page-renderer'
 
 function App() {
   const user = {
